@@ -3,6 +3,7 @@ package com.example.prakcomposablelayout
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -30,5 +31,11 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = colorResource(id = R.color.card_0_bg))
         )
+
+        {
+            Row(){
+                val gambar = painterResource(id= R.drawable.logo_umy)
+            }
+        }
     }
 }
