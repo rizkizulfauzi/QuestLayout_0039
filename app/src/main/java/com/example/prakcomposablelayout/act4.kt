@@ -33,7 +33,7 @@ fun AktivitasPertama(modifier: Modifier) {
         modifier = modifier.fillMaxSize()
     ) {
         Image(
-            painter = painterResource(id = R.drawable.prabowo),
+            painter = painterResource(id = R.drawable.logo_umy),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
@@ -99,4 +99,4 @@ fun AktivitasPertama(modifier: Modifier) {
             }
         }
     }
-}}
+}
