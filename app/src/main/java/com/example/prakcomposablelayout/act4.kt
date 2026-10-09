@@ -1,5 +1,6 @@
 package com.example.prakcomposablelayout
 
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -55,7 +56,17 @@ fun ActivitasPertama(modifier: Modifier){
                     )
                 }
             }
-
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+            ){
+                Text(
+                    stringResource(R.string.copy),
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .padding(bottom = 50.dp)
+                )
+            }
 
         }
 
